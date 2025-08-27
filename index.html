@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+</head>
+<body>
+    <body style="background-color:powderblue;">
+    <h1>5 Day forecast</h1>
+    <h2>Summary</h2>
+    <!--RETURN. Home scene? Is not included in example. -->
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>News</li>
+            <li>Weather</li>
+            <li style="float: right">About</li>
+            <!--RETURN.About float intentional-->
+        </ul>
+    </nav>
+    <main>
+        <!-- This will appear at the top of the screen -->
+        <hr/>
+        <section class="weather-section">
+            <div class="page">
+                <h1>UPCOMING FORECAST</h1>
+                <div class="archive">
+                    <article class="article">
+                        <section id="stats">
+                            <div class="summary"
+                            <h2>Weather Summary</h2>
+                            <h3 id ="five-city"></h3>
+                            <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/Umbrella.jpg?raw=true"  height="200" Width="200" alt="Red Umbrella on blue background" />
+                            <p>Currently: <span id=""current-desc"></span></p>
+                            <p>
+                                Temperature:
+                                <span id=""current-temp></span> 70°F
+                            </p>
+                            <p>Feels like: <span id="current-feelsLike"></span> 65°F</p>
+                            <p>Wind Chill: <span id="current-windChill"></span> 18°F</p>
+                            <p>Humidity: <span id="current-humid"></span%> 45% </p>
+                            <p>Wind Speed: <span id="current-windSpeed"></span> 30 mph</p>
+                        </div>
+                    </section>
+                    <div>
+                        <hr>
+                    </div>
+                </article>
+
+                <!--The forecast-->
+                <div class="article-five-day">
+                    <article id="forecastContainer">
+                        <!-- RETURN next line originally said "<h2 id="forecastTitle"> 5 Day forecast""-->
+                        <h2> 5 Day Forecast</h2>
+                            <h3 id="city"></h3>
+                            <div class="flex">
+                                <div class="flex-col">
+                                    <span id="dayTitle1" class="col-head"></span>
+                                    <img id="weatherIcon1" class="weatherIcon"/>
+                                    <!--RETURN Creates an image-->
+                                    <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/Sunny.jpg?raw=true" height="100" Width="100" alt="Image of a yellow sun"
+                                    <span class="temp-data">
+                                        <span id=""data1></span>
+                                        <span>70°F</span>
+                                    </span>
+                                </div>
+                                <div class="flex-col">
+                                    <span id="dayTitle2" class="col-head"></span>
+                                    <img id="weatherIcon2" class="weatherIcon"/>
+                                    <!--RETURN Creates an image-->
+                                    <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/Windy.jpg?raw=true" height="100" Width="100" alt="Image of a green windmill"
+                                    <span class="temp-data">
+                                        <span id=""data1></span>
+                                        <span>75°F</span>
+                                    </span>
+                                </div>
+                                <div class="flex-col">
+                                    <span id="dayTitle3" class="col-head"></span>
+                                    <img id="weatherIcon3" class="weatherIcon"/>
+                                    <!--RETURN Creates an image-->
+                                    <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/overcast.jpg?raw=true" height="100" Width="100" alt="Image of dark clouds masking yellow background"
+                                    <span class="temp-data">
+                                        <span id=""data3></span>
+                                        <span>65°F</span>
+                                    </span>
+                                </div>
+                                <div class="flex-col">
+                                    <span id="dayTitle4" class="col-head"></span>
+                                    <img id="weatherIcon4" class="weatherIcon"/>
+                                    <!--RETURN Creates an image-->
+                                    <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/thunderStorms.jpg?raw=true" height="100" Width="100" alt="Image of lightning bolt striking cloud"
+                                    <span class="temp-data">
+                                        <span id=""data4></span>
+                                        <span>74°F</span>
+                                    </span>
+                                </div>
+                                <div class="flex-col">
+                                    <span id="dayTitle5" class="col-head"></span>
+                                    <img id="weatherIcon5" class="weatherIcon"/>
+                                    <!--RETURN Creates an image-->
+                                    <img src="https://github.com/AndrewP-Instructor/HTMLProject1/blob/main/images/snowy.jpg?raw=true" height="100" Width="100" alt="Image of blue snowflake"
+                                    <span class="temp-data">
+                                        <span id=""data5></span>
+                                        <span>66°F</span>
+                                    </span>
+                                </div>
+                                </div>
+                             </div>
+                          </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <hr />
+        <section class="news-section"
+            <div class="page">
+                <h1>LATEST NEWS</h1>
+    </main>
+    <footer></footer>
+</body>
+</html>
